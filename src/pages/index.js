@@ -47,7 +47,9 @@ class ClickForGoose extends Component {
     return (
       <div
         style={{
-          height: '100vh',
+          height: '100%',
+          minHeight: '100vh',
+          overflow: 'hidden',
           margin: `0 auto`,
           padding: 0,
           position: 'relative',
@@ -66,7 +68,7 @@ class ClickForGoose extends Component {
               fontFamily: 'monospace',
               zIndex: 1000,
               position: 'absolute',
-              bottom: 16,
+              top: 16,
               right: 16,
               border: 0,
               padding: '0.5rem 1rem',
